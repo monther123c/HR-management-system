@@ -90,16 +90,18 @@ function salaryCounting (Level) {
 
 
 
-  
+
   function idMaker (){
     val = Math.floor(1000 + Math.random() * 9000);
     return val;
 
   }
+  var arr= [""];
   function EmployeeConst (fullName, Department, salary ) {
    this.fullName=fullName;
    this.Department=this.Department;
    this.salary= salary;
+   arr.push(EmployeeConst()); 
   
  }
  const Ghazi=new EmployeeConst("Ghazi Samer", "Administration",salaryCounting("Senior") );
@@ -110,7 +112,7 @@ function salaryCounting (Level) {
  const Rana  =new EmployeeConst("Rana Saleh ", "Development",salaryCounting("Junior") );
  const Hadi  =new EmployeeConst("Hadi Ahmad ", "Finance",salaryCounting("Mid-Senior") );
 
- EmployeeConst.prototype.name = function() {
+ EmployeeConst.prototype.name = function(arr) {
   
    document.write('<p> ${this.fullName}</p> <p> ${ this.Department}</p> <p> ${ this.salary}</p> <br>');
  };
