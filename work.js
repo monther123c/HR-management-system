@@ -1,16 +1,16 @@
-function salaryCounting (Level) {
-   if (this.Level =="Senior"){
-    return (Math.floor(Math.random() * (2000 - 	1500)) + 1500)*0.075;
-   }
-   else if ( this.Level =="Mid-Senior"){
-    return (Math.floor(Math.random() * (1500 - 	1000)) + 1000)*0.075;
-   }
+// function salaryCounting (Level) {
+//    if (this.Level =="Senior"){
+//     return (Math.floor(Math.random() * (2000 - 	1500)) + 1500)*0.075;
+//    }
+//    else if ( this.Level =="Mid-Senior"){
+//     return (Math.floor(Math.random() * (1500 - 	1000)) + 1000)*0.075;
+//    }
 
-   else if ( this.Level =="Junior"){
-    return (Math.floor(Math.random() * (1000 - 	500)) + 500) *0.075;
-   }
+//    else if ( this.Level =="Junior"){
+//     return (Math.floor(Math.random() * (1000 - 	500)) + 500) *0.075;
+//    }
     
-  }
+//   }
 
 
 

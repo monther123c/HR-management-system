@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: oldlace;
+
+  }
+  img {
+    width: 250px;
+}
+footer {
+    background: #F7EDDB;
+    padding: 0 0 0 15px;
+    margin: 20px -15px 0 -15px;
+    padding: 30px;
+    
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:100px;
+  
+  }
+  a {  
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
